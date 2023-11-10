@@ -65,3 +65,30 @@ main p{
     margin-top: 20px;
 }
 
+
+.container h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 45px;
+    width: 60%;
+    width: 230px;
+    margin-top: 40px;
+}
+
+.container p{
+    margin-bottom: 10px;
+    width: 80%;
+    width: 300px;
+}
+
+.cadastro{
+    height: 90px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.dois{
+    margin-top: 15px;
+}
