@@ -1,0 +1,70 @@
+
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Tela\ Inicial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    align-items: end;
+}
+
+main{
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+main p{
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    padding: 0px,18px;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: 500;
+    margin-right: 50px;
+    width: 65%;
+}
+
+.descricao{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+
+
+.botao{
+    display: flex;
+    background-color: white;
+    width: 280px;
+    height: 44px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botao a{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: orange;
+    font-weight: 500;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
