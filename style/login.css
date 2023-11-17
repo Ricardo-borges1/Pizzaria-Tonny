@@ -10,6 +10,7 @@ body {
     background-size: cover;
     margin-top: 30px;
     margin-left: 25px;
+    overflow-x: hidden;
 }
 
 header {
@@ -54,15 +55,10 @@ main p {
     border-radius: 8px;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
-.botao p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: orange;
-    font-weight: 700;
-    margin-top: 20px;
-}
 
 .container h1 {
     color: white;
@@ -89,4 +85,25 @@ main p {
 
 .dois {
     margin-top: 15px;
+}
+
+h4{
+    color: white;
+    margin-left: 190px;
+    font-size: 20px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    margin-left: 50px ;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+h2{
+    margin-left: 80px;
+    text-shadow: 0 0 0.2em rgb(7, 7, 7), 0 0 0.2em rgb(255, 254, 255),
+        0 0 0.2em rgb(255, 255, 255);
+    
 }
